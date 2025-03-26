@@ -184,15 +184,26 @@ input{
     padding: 0px;
     border-bottom: 1px solid rgb(105, 105, 105);
 }
-img{
-    max-width: 100%;
+.container-3{
+    display: flex;
+    justify-content: space-between;
+}
+.movie{
+    margin-left: 155px;
+    margin-top: 35px;
+    font-weight: 400;
+}
+.box .wrapper img{
+    max-width: 100px;
+    border-radius: 10px;
+}
+.img1{
+    height: 150px;
 }
 .wrapper{
+    width: 600px;
     margin-left: 155px;
-    font-size: 8px;
-    border: 1px solid white;
-    margin-top: 30px;
-    max-height: 120px;
+    margin-top: 20px;
     display: flex;
     overflow-x: auto;
 }
@@ -200,8 +211,82 @@ img{
     width: 0;
 }
 .wrapper .item{
-   width: 100px;
-   max-width: 50px;
-   height: 100px;
-   margin-right: 15px;
+   min-width: 100px;
+   margin-right: 20px;
+}
+br{
+    margin-top: 20px;
+}
+.title{
+    font-size: 14px;
+    margin-top: 7px;
+    font-weight: bold;
+}
+.year{
+    font-size: 12px;
+    color: rgb(105, 105, 105);
+}
+section{
+    margin-left: 155px;
+}
+.ask{
+    font-size: 22px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.question{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.under2{
+    padding: 0px;
+    border-bottom: 1px solid rgb(105, 105, 105);
+}
+.under3{
+    margin-right: 60px;
+    padding: 0px;
+    border-bottom: 1px solid rgb(105, 105, 105);
+}
+.box-1{
+    margin-left: 80px;
+    margin-top: 35px;
+    border-left: 1px solid rgb(105, 105, 105);
+}
+.aa{
+    margin-left: 20px;
+    font-weight: 400;
+}
+.about{
+    line-height: 23px;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+}
+.wiki{
+    line-height: 23px;
+    font-size: 15px;
+    color: #94E0FF;
+}
+.box-1 p.bb{
+    line-height: 23px;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-right: 100px;
+}
+.cc{
+    font-weight: bold;
+}
+.feed{
+    font-weight: bold;
+    color: rgb(158, 158, 158);
+    font-size: 13px;
+    margin-top: 10px;
+    margin-left: 20px;
+    padding-bottom: 14px;
+    margin-right: 100px;
+    text-align: end;
+    border-bottom: 1px solid rgb(105, 105, 105);
 }
